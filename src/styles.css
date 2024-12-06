@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: 'Poppins';
+  color: #ffffff;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(113.49deg, #984D38 -46.3%, #181E41 58.12%);
+  color: #c3b3d8;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.p-text{
+  color: #ffffff9e;
+}
+

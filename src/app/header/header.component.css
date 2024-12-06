@@ -1,0 +1,14 @@
+.text-small{
+  font-size: 16px;
+  text-align:  justify;
+}
+.btn-1{
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+  color: white;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.btn-1:hover{
+  opacity: 0.7;
+}

@@ -1,0 +1,27 @@
+.card-portfolio{
+  /* border: 2px solid #ffd700; */
+  padding: 58px 5px;
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 1em 0px;
+  transition: 0.3s;
+  opacity: 1;
+
+}
+
+.card-portfolio:hover{
+  opacity: 0.7;
+}
+
+.p-size{
+  font-size: 15px;
+}
+
+a{
+  text-decoration: none;
+}

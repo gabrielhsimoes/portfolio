@@ -1,0 +1,20 @@
+<div class="portfolio-container" style="margin-top: 3rem; text-align: center">
+  <h5 style="margin-bottom: 2rem">Portfólio Projetos</h5>
+  <div class="container">
+    <div class="row" style="justify-content: center;">
+
+      @for (portfolio of portfolio; track portfolio.id) {
+      <div class="col-lg-3">
+        <a [href]="portfolio.link">
+          <div class="card-portfolio">
+            <h6>{{ portfolio.name }}</h6>
+            <p class="p-text p-size">{{ portfolio.text }}</p>
+          </div>
+        </a>
+        </div>
+      }
+
+
+    </div>
+  </div>
+</div>
